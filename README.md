@@ -6,7 +6,7 @@ This project is part of my journey through the **freeCodeCamp Responsive Web Des
 
 The Tribute Page project is designed to honor a person or subject of significance. It includes a title, an image with a caption, descriptive information, and a link to additional resources. The page is styled to be responsive and visually engaging.
 
-## --> [🔥Live Demo](#)
+## --> [🔥Live Demo](https://anirudha-8.github.io/tribute-page/)
 
 ## 🚀 User Stories
 
@@ -76,13 +76,3 @@ To view and interact with the Tribute Page project locally, follow these steps:
 
 - freeCodeCamp: For providing an excellent learning platform and guidance.
 - HTML & CSS Documentation: For reference during development.
-
-### Key Points
-
-- **User Stories:** Includes all the user stories you provided for the tribute page.
-
-- **How to Use:** Clear instructions for cloning, navigating, and opening the project.
-
-- **Live Demo and Screenshot:** Placeholder sections for a live demo link and screenshot (you can add these if applicable).
-
-- **License and Acknowledgments:** Standard sections for open-source projects.
