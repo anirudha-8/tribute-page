@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+	--clr-black: #000000;
+	--clr-light-black: #333333;
+	--clr-gray: #eeeeee;
+	--clr-light-blue: #477ca7;
+	--clr-white: #ffffff;
+
+	--ff: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: var(--ff);
+	color: var(--clr-light-black);
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin: 0;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+	h1 {
+		font-size: 3.5rem;
+		line-height: 1.2;
+	}
+}
+
+a,
+a:active {
+	color: var(--clr-light-blue);
+}
+
+a:visited {
+	color: #74638f;
+}
+
+/* main element styling */
+#main {
+	background-color: var(--clr-gray);
+	border-radius: 0.5rem;
+	margin: 3rem 0.8rem;
+	padding: 1.5rem;
+}
+
+@media (max-width: 460px) {
+	#main {
+		margin: 0;
+	}
+}
+
+/* figure element styling */
+#img-div {
+	background: var(--clr-white);
+	padding: 10px;
+	margin: 0;
+}
+
+#image {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+#img-caption {
+	margin: 1.5rem 0 0.5rem 0;
+}
+
+@media (max-width: 460px) {
+	#img-caption {
+		font-size: 1.4rem;
+	}
+}
+
+#headline {
+	margin: 5rem 0;
+	text-align: center;
+}
+
+ul {
+	max-width: 550px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+}
+
+li {
+	margin: 1.6rem 1rem;
+}
+
+blockquote {
+	font-style: italic;
+	max-width: 545px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+}
